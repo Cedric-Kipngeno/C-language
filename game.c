@@ -5,11 +5,11 @@
 int main(void)
 {
     srand(time(NULL));
-    int secret = rand() % 20 + 1;
+    int secret = rand() % 80 + 1;
     int guess;
     int tries = 0;
 
-    printf("I'm thinking of a number from 1 to 20.\n");
+    printf("I'm thinking of a number from 1 to 80.\n");
 
     do
     {
